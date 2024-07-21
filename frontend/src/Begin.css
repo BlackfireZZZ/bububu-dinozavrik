@@ -1,9 +1,7 @@
 /* src/Begin.css */
 
 .block {
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
+    width: 100%;
 }
 
 .content {
@@ -38,6 +36,7 @@
     border: 1px solid #a0cfee; /* Рамка */
     margin-bottom: 10px; /* Отступ снизу для текста в контейнере */
     width: 100%; /* Ширина текста */
+    box-sizing: border-box;
 }
 
 /* Общие стили для изображений */
@@ -52,11 +51,11 @@
 /* Стили для горизонтальных блоков текста и фото */
 .block__horizontal__text,
 .block__horizontal__photo {
-    width: 40vw; /* Ширина текста и фото для горизонтальных элементов */
+    width: 100%; /* Ширина текста и фото для горизонтальных элементов */
 }
 
 /* Стили для вертикальных блоков текста и фото */
 .block__vertical__text,
 .block__vertical__photo {
-    width: 30vw; /* Ширина текста и фото для вертикальных элементов */
+    width: 100%; /* Ширина текста и фото для вертикальных элементов */
 }
