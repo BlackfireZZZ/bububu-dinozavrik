@@ -1,0 +1,38 @@
+/* src/Slider.css */
+.slider {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrow-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.arrow-button.left {
+    left: 10px;
+}
+
+.arrow-button.right {
+    right: 10px;
+}
+
+.fade-out {
+    animation: fadeOut 0.5s forwards;
+}
+
+@keyframes fadeOut {
+    to {
+        opacity: 0;
+    }
+}

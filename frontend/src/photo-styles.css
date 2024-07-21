@@ -1,0 +1,24 @@
+.horizontal-photo, .vertical-photo {
+    /* Скругление углов */
+    border-radius: 15px;
+
+    /* Убедиться, что фото сохраняет пропорции при изменении размеров */
+    object-fit: cover;
+
+    /* Дополнительно: Центровка фото */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.horizontal-photo {
+    /* Размеры горизонтального фото */
+    width: 60vw;
+    height: 40vh;
+}
+
+.vertical-photo {
+    /* Размеры вертикального фото */
+    width: 40vw;
+    height: 60vh;
+}

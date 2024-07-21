@@ -1,0 +1,22 @@
+/* src/header.css */
+.header {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    color: white;
+    width: 100%;
+    box-sizing: border-box; /* Убедитесь, что padding не влияет на ширину */
+    position: relative;
+    border-radius: 15px;
+    z-index: 1000; /* Устанавливаем высокий z-index, чтобы она оставалась поверх других элементов */
+}
+
+.header_text {
+    color: #000000;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+}

@@ -1,0 +1,32 @@
+.music-player {
+    display: flex;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.song-cover {
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.song-info {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+}
+
+.song-title, .song-artist {
+    margin: 0;
+    padding: 0;
+}
+
+.react-audio-player {
+    flex-grow: 1;
+}
