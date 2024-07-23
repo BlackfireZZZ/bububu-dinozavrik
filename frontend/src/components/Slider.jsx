@@ -3,12 +3,14 @@ import React, { useState } from 'react';
 import Begin from './Begin';
 import Begin2 from './Begin2';
 import Begin3 from "./Begin3";
+import Begin4 from "./Begin4";
 import '../Slider.css';
 
 const components = [
     { Component: Begin, props: { text: "Текст первого компонента" } },
     { Component: Begin2, props: { text: "Текст второго компонента" } },
-    { Component: Begin3, props: { text: "Текст третьего компонента" } }
+    { Component: Begin3, props: { text: "Текст третьего компонента" } },
+    { Component: Begin4, props: { text: "Текст четвертого компонента" } }
 ];
 
 const Slider = () => {
