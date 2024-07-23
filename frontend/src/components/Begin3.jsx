@@ -25,7 +25,7 @@ const Begin3 = ({ backgroundColor }) => {
                         </p>
                     </div>
                 </div>
-                <img src={require('../assets/murmansk5.jpg')} alt="Vertical" className="block__image"/>
+                <img src={require('../assets/murmansk5.jpg')} alt="Vertical" style={{width: '50%', height: 'auto'}} className="block__image"/>
             </div>
         </div>
     );

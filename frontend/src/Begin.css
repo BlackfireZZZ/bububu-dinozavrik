@@ -17,7 +17,7 @@
 }
 
 .text-image-container {
-    width: 45%;
+    width: 35%;
     flex-direction: column;
     align-items: center; /* Выравнивание по центру для текстов и изображений в контейнере */
 }

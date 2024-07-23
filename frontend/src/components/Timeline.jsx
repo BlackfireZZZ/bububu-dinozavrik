@@ -1,7 +1,7 @@
 // Timeline.js
 import React from 'react';
 import '../Timeline.css';
-import streetlamp from '../assets/icons/street_lamp.png'
+import ground from '../assets/icons/ground.png'
 import home1 from '../assets/home1.jpg';
 import home2 from '../assets/home2.jpg';
 import home2_2 from '../assets/home2.2.jpg'
@@ -36,7 +36,7 @@ const Timeline = () => {
         <div>
             <div className='text-div'>
                 <div className='main-home'>
-                    <p style={{width: '40%', margin: '25%'}}>
+                    <p style={{width: '50%', margin: '25% 0 0 20%'}}>
                         Я счастлив когда мы вдвоём дома. Очень люблю готовить с тобой еду (хоть ты и пошутишь про trad wife).
                         Люблю потом расставлять чашки, заваривать чай и есть с тобой нашу еду,
                         она вкусная и мы так сидим, а я щекочу тебя ногой. Люблю прятаться от камеры и хулиганить,
@@ -44,14 +44,15 @@ const Timeline = () => {
                         Люблю наши ночи и безумно люблю засыпать рядом с тобой.
                     </p>
                 </div>
-                <div className='second-text'>
-                    <p>
+                <div style={{display: 'inline-block', width: '40%'}}>
+                    <p className='second-text'>
                         Я тебе уже говорил, это время даёт мне чувство семьи, это то, что у меня,
                         благодаря тебе, есть и то, что я хотел бы оставить на всю свою жизнь.
                         А последний раз, когда мы сидели на балконе, это было просто замечательно.
                         Я чувствовал себя героем какого-нибудь фильма, когда у влюбленных свидание и они сидят и смотрят вдаль,
                         перед ними самая вкусная на свете еда, пледик, они такие красивые.. Это вот мы.
                     </p>
+                    <img src={ground} style={{height: '200px', width: 'auto', marginTop: '10%'}}/>
                 </div>
                 <div className='street-lamp'/>
             </div>

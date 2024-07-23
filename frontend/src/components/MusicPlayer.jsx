@@ -12,7 +12,7 @@ const MusicPlayer = () => {
                 <div className="song-title">{'Snowman'}</div>
                 <div className="song-artist">{'Sia'}</div>
             </div>
-             <ReactAudioPlayer src={songFile} controls />
+            {<ReactAudioPlayer src={songFile} controls />}
         </div>
     );
 };
