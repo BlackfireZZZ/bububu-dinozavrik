@@ -8,23 +8,23 @@ import home4 from '../assets/home4.jpg';
 
 const events = [
     {
-        date: '2022-01-01',
-        description: 'New Year Celebration',
+        date: '2 Марта',
+        description: 'Первая такая фоточка, которая у меня есть',
         image: home1,
     },
     {
-        date: '2022-03-01',
-        description: 'Spring Festival',
+        date: '29 Марта',
+        description: 'Ночь перед тем, как я уехал на PROD',
         image: home2,
     },
     {
-        date: '2022-06-01',
-        description: 'Summer Vacation',
+        date: '19 Апреля',
+        description: 'Эта фоточка лежала у меня в избранном, но я не помнил, что там вообще было. Провел небольшое расслежование: это мы с тобой готовим ужин после школы, когда у тебя все уехали.',
         image: home3,
     },
     {
-        date: '2022-12-01',
-        description: 'Winter Wonderland',
+        date: '16 Июня',
+        description: 'Утро перед поездом в Санкт-Петербург',
         image: home4,
     },
 ];
