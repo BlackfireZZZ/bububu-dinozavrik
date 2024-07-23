@@ -1,9 +1,9 @@
 .music-player {
     display: flex;
     align-items: center;
-    background-color: #f0f0f0;
+    background-color: #cfcfcf;
     padding: 10px;
-    border-radius: 5px;
+    border-radius: 50px;
     max-width: 600px;
     margin-bottom: 10px;
 }
@@ -12,7 +12,7 @@
     width: 60px;
     height: 60px;
     margin-right: 10px;
-    border-radius: 5px;
+    border-radius: 30px;
 }
 
 .song-info {
@@ -22,6 +22,8 @@
 }
 
 .song-title, .song-artist {
+    font-family: Arial;
+    font-size: 14px;
     margin: 0;
     padding: 0;
 }

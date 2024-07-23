@@ -7,24 +7,22 @@
     vertical-align: top;
     display: inline-block;
     background-image: url('assets/icons/home.png');
-    background-size: 450px auto;
-    width: 450px;
-    height: 350px;
+    background-size: 100% auto;
+    width: 45%;
+    height: 450px;
 }
 .street-lamp {
     display: inline-block;
     background-image: url('assets/icons/street_lamp.png');
-    background-size: auto 300px;
-    width: 150px;
-    height: 300px;
+    background-size: auto 450px;
+    width: 175px;
+    height: 450px;
 }
 .second-text {
-    display: inline-block;
     padding: 20px;
     border-radius: 20px;
-    width: 55%;
     vertical-align: top;
-    margin-top: 5%;
+    margin-top: 15%;
     border: gold 2px solid;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
