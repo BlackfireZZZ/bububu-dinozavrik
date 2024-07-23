@@ -10,18 +10,22 @@ const Begin2 = ({ backgroundColor }) => {
                 <h1 className="header_text">Самое самое начало</h1>
             </div>
             <div className="content">
-                <img src={require('../assets/murmansk2.jpg')} alt="Vertical" className="block__image"/>
+                <div className="text-image-container">
+                    <img src={require('../assets/murmansk2.jpg')} alt="Vertical" className="block__image"/>
+                    <div className="block__text block__horizontal__text">
+                        <p>
+                            В Мурманске вообще было много всего: как мы остались втроём с ТЮ и дрались на перчатках
+                            (кажется, я там подгадывал, чтобы мы поехали с тобой именно), как мы брали на двоих еду в
+                            ресторане, как кидались снежками.
+                        </p>
+                    </div>
+                </div>
                 <div className="text-image-container">
                     <div className="block__text block__horizontal__text">
                         <p>
                             В Мурманске, вообще не знал, как ты ко мне относишься, но там уже было все. Когда покупал
                             тебе карту Беларуси, говорил Гоше, кажется, "Даже если она откажется, почему я не могу подарить
                             красивое украшение красивой девушке".
-                        </p>
-                        <p>
-                            В Мурманске вообще было много всего: как мы остались втроём с ТЮ и дрались на перчатках
-                            (кажется, я там подгадывал, чтобы мы поехали с тобой именно), как мы брали на двоих еду в
-                            ресторане, как кидались снежками.
                         </p>
                     </div>
                     <img src={require('../assets/murmansk3.jpg')} alt="Vertical"
