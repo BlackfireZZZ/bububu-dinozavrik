@@ -1,0 +1,33 @@
+.round-videos {
+    text-align: center;
+    padding: 20px;
+}
+
+.page-title {
+    font-size: 36px; /* Увеличение заголовка */
+    color: #333;
+    margin-bottom: 40px; /* Большой отступ снизу для заголовка */
+}
+
+.video-row {
+    display: flex;
+    justify-content: center;
+    gap: 30px; /* Добавляем расстояние между кружочками */
+    margin-bottom: 50px; /* Увеличиваем отступ между рядами */
+}
+
+.round-video-container {
+    width: 200px;
+    margin: 15px; /* Увеличение отступов между кружочками */
+    text-align: center;
+    cursor: pointer;
+}
+
+.round-video {
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    overflow: hidden;
+}
