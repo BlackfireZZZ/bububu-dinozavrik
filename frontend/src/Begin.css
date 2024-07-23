@@ -17,6 +17,7 @@
 }
 
 .text-image-container {
+    width: 45%;
     flex-direction: column;
     align-items: center; /* Выравнивание по центру для текстов и изображений в контейнере */
 }
@@ -30,7 +31,7 @@
     font-size: 20px;
     color: #333;
     line-height: 1.5;
-    background-color: #e0f7ff; /* Более темный цвет фона */
+    background-color: #ffffff; /* Более темный цвет фона */
     padding: 30px;
     border-radius: 15px; /* Скругленные углы */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Добавление тени */
@@ -61,4 +62,4 @@
     width: 100%; /* Ширина текста и фото для вертикальных элементов */
 }
 
-p {font-family: Arial}
+p {font-family: 'Trebuchet MS'}
