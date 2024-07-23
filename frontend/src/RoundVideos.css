@@ -12,7 +12,8 @@
 .video-row {
     display: flex;
     justify-content: center;
-    margin-bottom: 40px; /* Большой отступ снизу между рядами */
+    gap: 30px; /* Добавляем расстояние между кружочками */
+    margin-bottom: 50px; /* Увеличиваем отступ между рядами */
 }
 
 .round-video-container {
