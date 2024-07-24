@@ -17,6 +17,7 @@
 }
 
 .round-video-container {
+    width: 300px;
     margin: 2%; /* Увеличение отступов между кружочками */
     text-align: center;
     cursor: pointer;
