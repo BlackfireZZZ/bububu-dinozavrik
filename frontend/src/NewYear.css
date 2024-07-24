@@ -1,0 +1,38 @@
+.new-year {
+    text-align: center;
+    padding: 20px;
+}
+
+.new-year__container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.new-year__left,
+.new-year__right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.new-year__left > * {
+    margin-bottom: 20px;
+}
+
+.image-container {
+    position: relative;
+    width: 40%;
+}
+
+.block__image {
+    width: 100%;
+    height: auto;
+}
+
+.tree-icon {
+    position: absolute;
+    right: -10px;
+    top: 10px;
+    width: 50px; /* Adjust the size of the tree as needed */
+}
