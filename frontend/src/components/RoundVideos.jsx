@@ -14,8 +14,8 @@ const RoundVideos = () => {
             </div>
             <div className="video-row">
                 <RoundVideo src={require('../assets/RoundVideos/video7.mp4')} label="Как ты жестикулируешь и эмоционально что-то рассказываешь" />
-                <RoundVideo src={require('../assets/RoundVideos/video8.mp4')} label="Как целуешь камеру" />
-                <RoundVideo src={require('../assets/RoundVideos/video6.mp4')} label='"Спокойной ночи, милый" и то, как ты засыпаешь с аксолотликом' />
+                <RoundVideo src={require('../assets/RoundVideos/video8.mp4')} label="Как целуешь меня через камеру" />
+                <RoundVideo src={require('../assets/RoundVideos/video10.mp4')} label='"Спокойной ночи, милый" и то, как ты засыпаешь с аксолотликом' />
             </div>
         </div>
     );
