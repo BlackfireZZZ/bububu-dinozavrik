@@ -1,4 +1,5 @@
 .fourteenth-container {
+    background-color: #fa7d7d;
     display: flex;
     flex-direction: column;
     padding: 20px;
@@ -19,22 +20,26 @@
     background-color: #ffcccc;
     border: 1px solid #ff9999;
     padding: 10px;
+    box-sizing: border-box;
     border-radius: 5px;
     max-width: 50%;
     margin-left: 20px;
+    font-family: 'Trebuchet MS';
 }
 
 .fourteenth-main {
     display: flex;
     margin-top: 20px;
+    justify-content: center;
 }
 
 .fourteenth-column {
-    flex: 1;
+    /* flex: 1; */
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-right: 20px;
+    width: 40%;
 }
 
 .block__text, .block__image {

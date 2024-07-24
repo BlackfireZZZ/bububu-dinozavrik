@@ -2,11 +2,13 @@
 import React from 'react';
 import '../Begin.css'; // Подключаем CSS файл для стилизации
 import '../header.css';
+import '../14th.css'
 import Fourteenth from "./14th";
+
 
 const Fourteenth2 = () => {
     return (
-        <div className="block" >
+        <div className="fourteenth-container" >
             <div className="content">
                 <div className="text-image-container">
                     <img src={require('../assets/14th2.jpg')} alt="Vertical" className="block__image"/>
