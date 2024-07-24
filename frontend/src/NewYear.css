@@ -1,19 +1,21 @@
 .new-year {
     text-align: center;
     padding: 20px;
+    background-color: rgb(0, 153, 195);
+    height: 120vh;
 }
 
 .new-year__container {
     display: flex;
-    justify-content: space-around;
     margin-top: 20px;
+    justify-content: center;
 }
 
 .new-year__left,
 .new-year__right {
+    width: 30%;
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
 .new-year__left > * {
@@ -22,17 +24,20 @@
 
 .image-container {
     position: relative;
-    width: 40%;
 }
 
 .block__image {
-    width: 100%;
     height: auto;
 }
 
 .tree-icon {
     position: absolute;
-    right: -10px;
-    top: 10px;
-    width: 50px; /* Adjust the size of the tree as needed */
+    right: -30%;
+    top: 0;
+    width: auto;
+    height: 100%; /* Adjust the size of the tree as needed */
+}
+h1 {
+    font-family: 'Trebuchet MS';
+    color:aliceblue;
 }
