@@ -19,10 +19,10 @@ const RoundVideo = ({ src, label }) => {
             <div
                 style={{
                     width: '300px', // Размер кружочка, можно изменить
-                    height: '300px',
+                    height: 'auto',
                     borderRadius: '50%',
                     overflow: 'hidden',
-                    border: '5px solid black',
+                    border: '5px solid white',
                     display: 'flex',
                     justifyContent: 'center',
                     alignItems: 'center',

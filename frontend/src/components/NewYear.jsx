@@ -2,7 +2,7 @@ import React from 'react';
 import RoundVideo from './RoundVideo';
 import MusicPlayer from './MusicPlayer';
 import '../NewYear.css';
-
+let snowflakes = Array.from({length: 30}, () => [Math.floor(Math.random() * 100), Math.floor(Math.random() * 100)]);
 const NewYear = () => {
     return (
         <div className="new-year">
@@ -30,6 +30,10 @@ const NewYear = () => {
                         <img src={require('../assets/icons/tree.png')} className="tree-icon" alt="Елка" />
                     </div>
                 </div>
+                {snowflakes.map((coord, index) => (
+                    <img src = {require('../assets/icons/Snowflake.png')}
+                    style={{position: 'absolute', top: `${coord[0]}%`, left: `${coord[1]}%`, width: '30px', height: 'auto'}}/>
+                ))}
             </div>
         </div>
     );
