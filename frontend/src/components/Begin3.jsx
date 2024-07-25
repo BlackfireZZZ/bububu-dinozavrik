@@ -12,7 +12,12 @@ const Begin3 = ({ backgroundColor }) => {
             </div>
             <div className="content">
                 <div className="text-image-container reversed">
-                    <MusicPlayer img_src={require('../assets/music/Snowman.jpg')} song_src={require('../assets/music/Snowman.mp3')} title={'Snowman'} artist={'Sia'} />
+                    <MusicPlayer img_src={require('../assets/music/viva_la_vida.jpg')}
+                                 song_src={require('../assets/music/viva_la_vida.mp3')}
+                                 title={'Viva la vida'} artist={'Coldplay'} />
+                    <MusicPlayer img_src={require('../assets/music/Snowman.jpg')}
+                                 song_src={require('../assets/music/Snowman.mp3')}
+                                 title={'Snowman'} artist={'Sia'} />
                     <div className="block__text block__vertical__text">
                         <p>
                             А потом началось самое хитрюжничество, когда ты через Васю рассказала мне, какие цветы тебе нравятся и я принёс их вместе с картой Беларуси. А ещё в отеле сделал хитрый вид, что я не понимаю, о каких цветах идёт речь и что вообще не я подарил.
