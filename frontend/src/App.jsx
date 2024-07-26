@@ -9,11 +9,13 @@ import Walk2 from "./components/Walk2";
 import Walk3 from "./components/Walk3";
 
 import './App.css';
+import Walk4 from "./components/walk4";
+import Walk5 from "./components/Walk5";
 
 function App() {
     return (
         <div className="App">
-            <Walk3 />
+            <Walk5 />
         </div>
     );
 }
