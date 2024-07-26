@@ -2,10 +2,11 @@
 import React from 'react';
 import '../Begin.css'; // Подключаем CSS файл для стилизации
 import '../header.css';
+import '../Walk2.css'
 
 const Walk1 = ({ backgroundColor }) => {
     return (
-        <div className="block" style={{ backgroundColor }}>
+        <div className="walk1-container" style={{ backgroundColor }}>
             <div className="header">
                 <h1 className="header_text">Самое самое начало</h1>
             </div>

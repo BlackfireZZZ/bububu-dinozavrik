@@ -4,6 +4,7 @@ import Timeline from "./components/Timeline";
 import RoundVideos from "./components/RoundVideos";
 import NewYear from "./components/NewYear";
 import FourteenthSlider from "./components/14thSlider";
+import Walk1 from "./components/Walk1";
 import Walk2 from "./components/Walk2";
 import './App.css';
 
