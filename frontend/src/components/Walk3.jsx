@@ -1,11 +1,10 @@
 import React from 'react';
 import '../Begin.css';
-import '../Walk2.css';
-
+import '../Walk3.css';
 
 const Walk3 = () => {
     return (
-        <div className="walk2-container">
+        <div className="walk3-container">
             <div className="left-column">
                 <div className="top-image-container">
                     <img src={require("../assets/walk7.jpg")} alt="Big" className="big-image"/>
@@ -26,6 +25,7 @@ const Walk3 = () => {
                 </div>
                 <div className="image-container">
                     <img src={require('../assets/walk10.jpg')} alt="Walk" className="main-image"/>
+                    <img src={require('../assets/walk11.jpg')} alt="Walk" className="main-image"/>
                     <div className="caption">"Подпись"</div>
                 </div>
             </div>
