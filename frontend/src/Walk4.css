@@ -1,0 +1,33 @@
+.walk4-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(90, 200, 0);
+}
+.image-container {
+    display: inline-block;
+    width: 40%;
+}
+.content-container {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 10px;
+    border-radius: 20px;
+    display: inline-block; 
+    align-items: center;
+    width: 50%;
+}
+.images-row {
+    display: flex; 
+    justify-content: space-between; 
+    width: 100%;
+}
+.image-full {
+    width: 100%; 
+    margin-top: 10px;
+}
+.unit {
+    width: 48%;
+    height: auto;
+    border-radius: 20px;
+    margin: 5px;
+}

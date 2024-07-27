@@ -8,7 +8,7 @@ const Walk1 = ({ backgroundColor }) => {
     return (
         <div className="walk1-container" style={{ backgroundColor }}>
             <div className="header">
-                <h1 className="header_text" style={{color: 'white'}}>Самое самое начало</h1>
+                <h1 className="header_text">Наши прогулки</h1>
             </div>
             <div className="content">
                 <div className="text-image-container walk1-background">
