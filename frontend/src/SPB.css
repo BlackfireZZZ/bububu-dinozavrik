@@ -1,0 +1,24 @@
+.media-container {
+    display: flex;
+}
+
+.video {
+    width: 70%; /* Настроить по необходимости */
+    aspect-ratio: 16/9; /* Установить соотношение сторон для горизонтального видео */
+}
+
+.photos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 10px;
+}
+
+.photo {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.photo:last-child {
+    margin-bottom: 0;
+}
