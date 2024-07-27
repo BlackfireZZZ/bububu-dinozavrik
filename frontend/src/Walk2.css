@@ -2,7 +2,12 @@
     width: 100%;
     padding: 50px;
     box-sizing: border-box;
-    background: linear-gradient(to bottom, rgb(104, 67, 94), rgb(81, 70, 131))
+    background: linear-gradient(to bottom, rgb(63, 40, 57), rgb(81, 70, 131))
+}
+.walk1-background {
+    background-color: rgba(211, 211, 211, 0.5);
+    padding: 5px;
+    border-radius: 20px;
 }
 .walk2-container {
     display: flex;

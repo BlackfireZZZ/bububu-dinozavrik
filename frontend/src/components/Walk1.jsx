@@ -8,10 +8,10 @@ const Walk1 = ({ backgroundColor }) => {
     return (
         <div className="walk1-container" style={{ backgroundColor }}>
             <div className="header">
-                <h1 className="header_text">Самое самое начало</h1>
+                <h1 className="header_text" style={{color: 'white'}}>Самое самое начало</h1>
             </div>
             <div className="content">
-                <div className="text-image-container">
+                <div className="text-image-container walk1-background">
                     <div className="block__text block__horizontal__text">
                         <p>
                             Я люблю наши прогулки. Люблю показывать тебе свои любимые места Москвы,
@@ -21,7 +21,7 @@ const Walk1 = ({ backgroundColor }) => {
                     </div>
                     <img src={require('../assets/walk1.jpg')} alt="Vertical" className="block__image"/>
                 </div>
-                <div className="text-image-container">
+                <div className="text-image-container walk1-background">
                     <img src={require('../assets/walk2.jpg')} alt="Vertical"
                          className="block__image block__vertical__photo"/>
                     <div className="block__text block__horizontal__text">

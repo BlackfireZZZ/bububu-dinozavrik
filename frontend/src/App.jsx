@@ -11,7 +11,7 @@ import './App.css';
 function App() {
     return (
         <div className="App">
-            <Walk2 />
+            <Walk1 />
         </div>
     );
 }
