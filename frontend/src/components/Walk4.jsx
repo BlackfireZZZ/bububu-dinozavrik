@@ -4,18 +4,10 @@ import '../Begin.css';
 const Walk4 = () => {
     return (
         <div className="walk4-container" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', backgroundColor: 'green' }}>
-            <div className="image-container" style = {{
-                width: '30%', margin: '20px', 
-                padding: '10px', backgroundColor: 'rgb(255, 255, 255, 0.5)', 
-                borderRadius: '20px'}}>
+            <div className="image-container walk4" style={{width: '30%'}}>
                 <img src={require('../assets/walk12.jpg')} alt="Walk 12" style={{ width: '100%', borderRadius: '20px' }} />
             </div>
-            <div className="content-container" style={{ 
-                display: 'flex', flexDirection: 'column',
-                alignItems: 'center', width: '30%', 
-                margin: '20px', padding: '10px',
-                backgroundColor: 'rgb(255, 255, 255, 0.5)', borderRadius: '20px'
-            }}>
+            <div className="content-container walk4">
                 <div className="block__text">
                     <p>Я люблю фотографировать тебя и фотографироваться с тобой. Ты очень очень очень красивая.
                         Это говорю я, это говорят самые жестокие критики: Никонов Иннокентий и Давитадзе Георгий,
