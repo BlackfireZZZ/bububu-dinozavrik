@@ -1,12 +1,30 @@
+.walk1-container {
+    width: 100%;
+    padding: 50px;
+    box-sizing: border-box;
+    background: linear-gradient(to bottom, rgb(63, 40, 57), rgb(81, 70, 131))
+}
+.walk1-background {
+    background-color: rgba(211, 211, 211, 0.5);
+    padding: 5px;
+    border-radius: 20px;
+}
 .walk2-container {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, rgb(104, 67, 94), orange)
 }
 
 .left-column, .right-column {
     display: flex;
+    margin: 10px;
     flex-direction: column;
     align-items: center;
-    width: 50%;
+    width: 30%;
+    background-color: rgba(211, 211, 211, 0.5);
+    padding: 5px;
+    border-radius: 20px;
 }
 
 .block__text {
@@ -21,6 +39,7 @@
 
 .main-image, .big-image {
     width: 100%;
+    border-radius: 20px;
 }
 
 .caption {
@@ -31,6 +50,8 @@
     color: white;
     padding: 5px;
     font-size: 12px;
+    border-radius: 10px;
+    font-family: 'Trebuchet MS';
 }
 
 .top-image-container {
@@ -47,6 +68,7 @@
 
 .small-image {
     width: 49%;
+    border-radius: 20px;
 }
 
 @media screen and (max-width: 768px) {

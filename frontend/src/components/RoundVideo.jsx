@@ -40,7 +40,7 @@ const RoundVideo = ({ src, label }) => {
                 </video>
             </div>
             {/*<div className="block__text">*/}
-            <div>
+            <div style={{backgroundColor: 'rgba(255, 255, 255, 0.5)', borderRadius: '20px'}}>
                 <p>{label}</p>
             </div>
         </div>

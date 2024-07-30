@@ -1,0 +1,31 @@
+.walk5-container {
+    background-color:bisque;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.content-container, .media-container {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    margin: 5px;
+    width: 40%;
+    background-color: rgba(240, 248, 255, 0.5);
+    border-radius: 20px;
+}
+.images-row, .images-video-row {
+    display: flex; 
+    justify-content: space-between;
+    width: 100%;
+}
+.images-full {
+    width: 100%;
+    margin-top: 10px;
+}
+.unit {
+    width: 48%;
+    height: auto;
+    border-radius: 20px;
+    margin: 5px;
+}

@@ -30,11 +30,12 @@ const NewYear = () => {
                         <img src={require('../assets/icons/tree.png')} className="tree-icon" alt="Елка" />
                     </div>
                 </div>
-                <div className="new-year__right">
+                <div className="new-year__right" style={{marginLeft: '6%'}}>
                     <RoundVideo src={require('../assets/RoundVideos/scarf.mp4')} label="Прекрасный шарфик, который ты мне подарила"/>
                 </div>
                 {snowflakes.map((coord, index) => (
                     <img src = {require('../assets/icons/Snowflake.png')}
+                    alt="snow"
                     style={{position: 'absolute', top: `${coord[0]}%`, left: `${coord[1]}%`, width: '30px', height: 'auto'}}/>
                 ))}
             </div>
