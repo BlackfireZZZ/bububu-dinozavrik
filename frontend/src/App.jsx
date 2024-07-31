@@ -15,11 +15,12 @@ import Difference2 from './components/Difference2';
 import Difference3 from './components/Difference3';
 import Difference4 from './components/Difference4';
 import './App.css';
+import WalkSlider from "./components/WalkSlider";
 
 function App() {
     return (
         <div className="App">
-            <Walk4 />
+            <WalkSlider />
         </div>
     );
 }
