@@ -1,0 +1,51 @@
+.sea-sea-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+    background-image: url('assets/sea2.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white; /* Цвет текста, чтобы был читаемым на фоне */
+    text-align: center;
+}
+
+.sea-sea-container h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.sea-content {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.sea-left-block, .sea-right-block {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sea-left-block p, .sea-right-block p {
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.sea-images {
+    display: flex;
+    gap: 10px;
+}
+
+.sea-images img {
+    height: 30vw; /* Устанавливаем одинаковую высоту для всех изображений */
+    object-fit: cover;
+    flex: 1;
+}
