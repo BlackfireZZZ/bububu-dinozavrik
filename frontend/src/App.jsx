@@ -14,6 +14,8 @@ import Difference1 from './components/Difference1';
 import Difference2 from './components/Difference2';
 import Difference3 from './components/Difference3';
 import Difference4 from './components/Difference4';
+import Sea from "./components/Sea";
+import ShipSlider from "./components/ShipSlider";
 import './App.css';
 import WalkSlider from "./components/WalkSlider";
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
@@ -33,6 +35,8 @@ function App() {
                     <Link to='/diff2'>(2)</Link>
                     <Link to='/diff3'>(3)</Link>
                     <Link to='/diff4'>(4)</Link>
+                    <Link to='/sea'>Море </Link>
+                    <Link to='/ship'>Корабль </Link>
                 </nav>
                 <Routes>
                     <Route path="/" element={<Timeline/>}/>
@@ -45,6 +49,8 @@ function App() {
                     <Route path="/diff2" element={<Difference2 />}/>
                     <Route path="/diff3" element={<Difference3 />}/>
                     <Route path="/diff4" element={<Difference4 />}/>
+                    <Route path="/sea" element={<Sea />}/>
+                    <Route path="/ship" element={<ShipSlider />}/>
                 </Routes>
             </Router>
         </div>
