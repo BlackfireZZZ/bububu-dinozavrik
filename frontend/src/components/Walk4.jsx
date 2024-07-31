@@ -4,7 +4,7 @@ import '../Begin.css';
 const Walk4 = () => {
     return (
         <div className="walk4-container" 
-        style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', backgroundColor: 'green' }}>
+        style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', backgroundColor: '#77dd77', minHeight: '100vh' }}>
             <div className="image-container walk4" style={{width: '30%'}}>
                 <img src={require('../assets/walk12.jpg')} alt="Walk 12" className='img4' style={{ width: '100%' }} />
             </div>

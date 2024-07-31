@@ -12,12 +12,11 @@ const Difference4 = () => {
     return (
         <div className="difference4-container">
             <div className="difference4-header">Люблю тебя сумасшедшую</div>
-
             <div className="difference4-media">
                 <div className="media-container">
                     <div className="media-header">Со мной</div>
                     <div className="media-content">
-                        <video className="media-element" src={videoSrc} controls />
+                        <video src={videoSrc} controls />
                         <div className="media-photos">
                             <img className="media-element" src={imgSrc12} alt="Difference12" />
                             <img className="media-element" src={imgSrc13} alt="Difference13" />
@@ -26,11 +25,11 @@ const Difference4 = () => {
                 </div>
 
                 <div className="media-container">
-                    <div className="media-content">
+                    <div className="media-content column">
                         <img className="media-element large-photo" src={imgSrc14} alt="Difference14" />
                         <div className="media-photos-row">
-                            <img className="media-element" src={imgSrc15} alt="Difference15" />
-                            <img className="media-element" src={imgSrc16} alt="Difference16" />
+                            <img className="small-photo" src={imgSrc15} alt="Difference15" />
+                            <img className="small-photo" src={imgSrc16} alt="Difference16" />
                         </div>
                     </div>
                     <div className="media-footer">И с друзьями</div>

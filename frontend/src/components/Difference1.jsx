@@ -10,12 +10,12 @@ const Difference1 = () => {
         <div className="difference1-container">
             <h1 className="difference1-header">Я люблю тебя, когда ты нежная, трепетная, ласковая.</h1>
             <div className="difference1-images">
-                <img src={Difference1Image} alt="Difference1" className="media-element" />
-                <img src={Difference2Image} alt="Difference2" className="media-element" />
-                <img src={Difference3Image} alt="Difference3" className="media-element" />
+                <img src={Difference1Image} alt="Difference1" className="media-element-df1" />
+                <img src={Difference2Image} alt="Difference2" className="media-element-df1" />
+                <img src={Difference3Image} alt="Difference3" className="media-element-df1" />
             </div>
             <div className="difference1-video">
-                <video src={Difference1Video} controls className="media-element" />
+                <video src={Difference1Video} controls className="media-element-df1" />
             </div>
         </div>
     );
