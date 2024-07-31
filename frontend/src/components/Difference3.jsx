@@ -9,9 +9,9 @@ const Difference2 = () => {
         <div className="difference3-container">
             <h1 className="difference3-header">Я люблю тебя страстную</h1>
             <div className="difference3-media">
-                <img src={Difference8Image} alt="Difference8" className="media-element"/>
-                <img src={Difference9Image} alt="Difference9" className="media-element"/>
-                <img src={Difference11Image} alt="Difference2" className="media-element"/>
+                <img src={Difference8Image} alt="Difference8" className="media-element-df3"/>
+                <img src={Difference9Image} alt="Difference9" className="media-element-df3"/>
+                <img src={Difference11Image} alt="Difference2" className="media-element-df3"/>
             </div>
         </div>
     );
