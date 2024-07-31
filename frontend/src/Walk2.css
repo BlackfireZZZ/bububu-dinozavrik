@@ -13,7 +13,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(to bottom, rgb(104, 67, 94), orange)
+    background: linear-gradient(to bottom, rgb(104, 67, 94), orange);
+    min-height: 100vh;
 }
 
 .left-column2, .right-column2 {
@@ -52,9 +53,6 @@
     font-size: 12px;
     border-radius: 10px;
     font-family: 'Trebuchet MS';
-}
-p {
-    color: white;
 }
 
 .top-image-container2 {
