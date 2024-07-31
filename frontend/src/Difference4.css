@@ -6,6 +6,7 @@
     height: 100vh;
     padding: 10px;
     text-align: center;
+    background-color: black;
     /*background-image: url('assets/Difference10.jpg');*/
     background-size: cover;
     background-position: center;
@@ -13,9 +14,8 @@
 }
 
 .difference4-header {
-    position: absolute;
-    top: 20px;
-    left: 20px;
+    margin: 20px 75% 20px 0;
+    font-family: 'Trebuchet MS';
     font-size: 24px;
     font-weight: bold;
     color: white;
@@ -36,18 +36,18 @@
     background-color: rgba(255, 255, 255, 0.8);
     border-radius: 10px;
     padding: 10px;
-    width: 45%;
-    max-height: 90%;
+    max-width: 45%;
+    max-height: 100vh;
 }
 
-.left-container .media-content {
+.left-container, .media-content {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
     width: 100%;
 }
 
-.left-container .media-photos {
+.left-container, .media-photos {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -55,48 +55,61 @@
     width: 40%;
 }
 
-.right-container .media-photos-row {
-    display: flex;
+.right-container, .media-photos-row {
     justify-content: space-between;
     width: 100%;
     margin-top: 10px;
 }
-
-.media-header {
-    font-size: 18px;
-    font-weight: bold;
-    margin-bottom: 10px;
+.right-container {
+    display: flex;
 }
+
+
 
 .media-content {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     width: 100%;
 }
+.column {
+    flex-direction: column;
+}
 
 .media-element {
+    width: 100%;
+    height: auto;
+    margin: 10px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-.video {
-    width: 45%;
-    height: auto;
+video {
+    width: auto;
+    height: 500px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .large-photo {
-    width: 100%;
+    width: 50%;
     height: auto;
 }
 
 .small-photo {
-    width: 45%;
-    height: auto;
+    width: auto;
+    height: 20vh;
+    margin: 5px;
+    border-radius: 10px;
 }
 
-.media-footer {
-    margin-top: 10px;
+.media-header, .media-footer {
     font-size: 18px;
     font-weight: bold;
+    font-family: 'Trebuchet MS';
+    background-color: rgba(240, 248, 255, 0.5);
+    padding: 5px;
+    border-radius: 10px;
 }
+.media-header {margin-bottom: 10px}
+.media-footer {margin-top: 10px}

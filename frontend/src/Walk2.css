@@ -16,7 +16,7 @@
     background: linear-gradient(to bottom, rgb(104, 67, 94), orange)
 }
 
-.left-column, .right-column {
+.left-column2, .right-column2 {
     display: flex;
     margin: 10px;
     flex-direction: column;
@@ -27,17 +27,17 @@
     border-radius: 20px;
 }
 
-.block__text {
+.block__text2 {
     width: 100%;
     text-align: center;
 }
 
-.image-container {
+.image-container2 {
     position: relative;
     width: 100%;
 }
 
-.main-image, .big-image {
+.main-image2, .big-image2 {
     width: 100%;
     border-radius: 20px;
 }
@@ -53,20 +53,23 @@
     border-radius: 10px;
     font-family: 'Trebuchet MS';
 }
+p {
+    color: white;
+}
 
-.top-image-container {
+.top-image-container2 {
     position: relative;
     width: 100%;
 }
 
-.small-images-container {
+.small-images-container2 {
     display: flex;
     justify-content: space-between;
     width: 100%;
     margin-top: 5px;
 }
 
-.small-image {
+.small-image2 {
     width: 49%;
     border-radius: 20px;
 }
@@ -76,11 +79,11 @@
         flex-direction: column;
     }
 
-    .left-column, .right-column {
+    .left-column2, .right-column2 {
         width: 100%;
     }
 
-    .small-image {
+    .small-image2 {
         width: 48%;
     }
 }

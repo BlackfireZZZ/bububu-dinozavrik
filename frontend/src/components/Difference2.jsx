@@ -8,8 +8,8 @@ const Difference2 = () => {
         <div className="difference2-container">
             <h1 className="difference2-header">Я люблю тебя глубокую, мудрую</h1>
             <div className="difference2-media">
-                <img src={Difference6Image} alt="Difference1" className="media-element" />
-                <img src={Difference7Image} alt="Difference2" className="media-element" />
+                <img src={Difference6Image} alt="Difference1" className="media-element-df2" />
+                <img src={Difference7Image} alt="Difference2" className="media-element-df2" />
             </div>
         </div>
     );

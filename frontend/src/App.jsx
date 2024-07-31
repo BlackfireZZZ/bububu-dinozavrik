@@ -7,15 +7,19 @@ import FourteenthSlider from "./components/14thSlider";
 import Walk1 from "./components/Walk1";
 import Walk2 from "./components/Walk2";
 import Walk3 from "./components/Walk3";
-
-import './App.css';
 import Walk4 from './components/Walk4';
 import Walk5 from "./components/Walk5";
+import Difference from './components/Difference';
+import Difference1 from './components/Difference1';
+import Difference2 from './components/Difference2';
+import Difference3 from './components/Difference3';
+import Difference4 from './components/Difference4';
+import './App.css';
 
 function App() {
     return (
         <div className="App">
-            <Walk5 />
+            <Difference4 />
         </div>
     );
 }

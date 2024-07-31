@@ -21,13 +21,16 @@
 
 .difference3-media {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    width: 100%;
+    background-color: rgba(240, 248, 255, 0.5);
+    padding: 10px;
+    border-radius: 20px;
+    width: 75%;
     height: 50vh;
 }
 
-.media-element {
+.media-element-df3 {
     height: 100%;
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
