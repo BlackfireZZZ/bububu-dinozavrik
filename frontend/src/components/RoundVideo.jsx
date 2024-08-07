@@ -18,7 +18,7 @@ const RoundVideo = ({ src, label }) => {
         <div className="round-video-container">
             <div
                 style={{
-                    width: '300px', // Размер кружочка, можно изменить
+                    width: '100%', // Размер кружочка, можно изменить
                     height: 'auto',
                     borderRadius: '50%',
                     overflow: 'hidden',
@@ -32,7 +32,7 @@ const RoundVideo = ({ src, label }) => {
             >
                 <video style={{
                     width: '100%',
-                    height: '100%',
+                    height: 'auto',
                     objectFit: 'cover'
                 }}
                        ref={videoRef}>
