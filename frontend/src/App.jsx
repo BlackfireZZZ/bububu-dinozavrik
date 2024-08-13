@@ -10,6 +10,7 @@ import Sea from "./components/Sea";
 import ShipSlider from "./components/ShipSlider";
 import './App.css';
 import WalkSlider from "./components/WalkSlider";
+import PoemsSlider from "./components/PoemsSlider";
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 
 function App() {
@@ -40,6 +41,7 @@ function App() {
                     <Route path="/diff" element={<DiffSlider />}/>
                     <Route path="/sea" element={<Sea />}/>
                     <Route path="/ship" element={<ShipSlider />}/>
+                    <Route path="poems" element={<PoemsSlider />}/>
                 </Routes>
             </Router>
         </div>

@@ -14,15 +14,15 @@ import Dinosaur from '../assets/icons/dino.png'
 
 //link, title, photo
 const memories = [
-    ['/beginning', 'Глава 1. Самое самое начало', BegginingPhoto],
-    ['/newyear', 'Глава 2. Новый год', NewYearPhoto],
-    ['/14th', 'Глава 3. 14 февраля', ValentinePhoto],
-    ['/timeline', 'Глава 4. Дом', HomePhoto],
-    ['/ourwalks', 'Глава 5. Наши прогулки', WalkPhoto],
-    ['/diff', 'Глава 6. Ты разная', DifferencePhoto],
-    ['/sea', 'Глава 7. Про море', SeaPhoto],
-    ['/ship', 'Глава 8. Кораблик', ShipPhoto],
-    ['/flower', 'Глава 9. Стихи и цветы', SPBPhoto]
+    ['/beginning', '1. Самое самое начало', BegginingPhoto],
+    ['/newyear', '2. Новый год', NewYearPhoto],
+    ['/14th', '3. 14 февраля', ValentinePhoto],
+    ['/timeline', '4. Дом', HomePhoto],
+    ['/ourwalks', '5. Наши прогулки', WalkPhoto],
+    ['/diff', '6. Ты разная', DifferencePhoto],
+    ['/sea', '7. Про море', SeaPhoto],
+    ['/ship', '8. Кораблик', ShipPhoto],
+    ['/poems', '9. Стихи и цветы', SPBPhoto]
 ]
 
 const HomePage = () => {
