@@ -1,22 +1,22 @@
-.media-container {
+.media-container-spb {
     display: flex;
+    justify-content: center;
 }
 
 .video {
-    width: 70%; /* Настроить по необходимости */
+    width: 100%; /* Настроить по необходимости */
     aspect-ratio: 16/9; /* Установить соотношение сторон для горизонтального видео */
 }
 
 .photos {
     display: flex;
-    flex-direction: column;
     justify-content: space-between;
-    margin-left: 10px;
 }
 
 .photo {
-    width: 100%;
+    width: 49%;
     margin-bottom: 10px;
+    border-radius: 20px;
 }
 
 .photo:last-child {

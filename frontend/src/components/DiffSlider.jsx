@@ -1,19 +1,20 @@
-// src/components/Slider.js
 import React, { useState } from 'react';
-import Begin from './Begin';
-import Begin2 from './Begin2';
-import Begin3 from "./Begin3";
-import Begin4 from "./Begin4";
+import Difference from "./Difference";
+import Difference1 from "./Difference1";
+import Difference2 from "./Difference2";
+import Difference3 from "./Difference3";
+import Difference4 from "./Difference4";
 import '../Slider.css';
 
 const components = [
-    { Component: Begin, props: { text: "Текст первого компонента" } },
-    { Component: Begin2, props: { text: "Текст второго компонента" } },
-    { Component: Begin3, props: { text: "Текст третьего компонента" } },
-    { Component: Begin4, props: { text: "Текст четвертого компонента" } }
+    { Component: Difference, props: { text: "Текст первого компонента" } },
+    { Component: Difference1, props: { text: "Текст второго компонента" } },
+    { Component: Difference2, props: { text: "Текст первого компонента" } },
+    { Component: Difference3, props: { text: "Текст второго компонента" } },
+    { Component: Difference4, props: { text: "Текст первого компонента" } },
 ];
 
-const Slider = () => {
+const DiffSlider = () => {
     const [current, setCurrent] = useState(0);
     const [animating, setAnimating] = useState(false);
 
@@ -46,4 +47,4 @@ const Slider = () => {
     );
 };
 
-export default Slider;
+export default DiffSlider;
