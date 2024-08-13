@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import Poems1 from "./Poems1";
+import Left from '../assets/icons/Stylus-left.png'
+import Right from '../assets/icons/Stylus-right.png'
 
 const components = [
     { Component: Poems1, props: { text: "Текст первого компонента" } },
@@ -32,8 +34,12 @@ const ShipSlider = () => {
     return (
         <div className={`slider ${animating ? 'fade-out' : ''}`}>
             <Component {...props} backgroundColor="#cfe5ff" />
-            <button className="arrow-button left" onClick={handlePrev}>&#8592;</button>
-            <button className="arrow-button right" onClick={handleNext}>&#8594;</button>
+            <button className="arrow-button left" onClick={handlePrev}>
+                <img src={Left} alt="&#8592;" style={{width: '50px', height: 'auto'}}/>
+            </button>
+            <button className="arrow-button right" onClick={handleNext}>
+                <img src={Right} alt="&#8592;" style={{width: '50px', height: 'auto'}}/>
+            </button>
         </div>
     );
 };
