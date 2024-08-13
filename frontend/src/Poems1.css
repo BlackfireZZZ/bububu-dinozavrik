@@ -1,0 +1,80 @@
+.poems__container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px;
+    background-color: #f0f8ff; /* Общий цвет фона */
+    box-sizing: border-box;
+}
+
+.poems__left, .poems__right {
+    width: 50%;
+    max-width: 600px;
+    box-sizing: border-box;
+}
+
+.poems__block__text {
+    font-size: 20px;
+    color: #333;
+    line-height: 1.5;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #a0cfee;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.poems__image__container {
+    position: relative; /* Для позиционирования подписи */
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.poems__image {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #a0cfee;
+}
+
+.poems__image__caption {
+    position: absolute;
+    left: 10px; /* Отступ от левого края */
+    bottom: 10px; /* Отступ от нижнего края */
+    font-size: 16px;
+    color: #ffffff; /* Белый текст */
+    background-color: rgba(0, 0, 0, 0.6); /* Полупрозрачный черный фон */
+    padding: 10px;
+    border-radius: 5px;
+    max-width: calc(100% - 20px); /* Чтобы подпись не выходила за рамки контейнера */
+    box-sizing: border-box;
+}
+
+.poems__block__poem {
+    font-family: 'Caveat', cursive;
+    font-size: 22px;
+    color: #444;
+    line-height: 1.6;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #a0cfee;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center; /* Центрируем контейнер по горизонтали */
+    align-items: center; /* Центрируем контейнер по вертикали */
+}
+
+.poems__block__poem p {
+    font-family: 'Caveat', cursive;
+    text-align: left; /* Текст выровнен по левому краю */
+    margin: 0; /* Убираем отступы */
+    max-width: 600px; /* Задаем максимальную ширину текста */
+}
