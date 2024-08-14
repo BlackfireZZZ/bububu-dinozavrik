@@ -14,8 +14,8 @@ RUN npm run build
 FROM nginx:latest as prod
 
 # Копируем SSL сертификаты и ключи в контейнер
-COPY /etc/letsencrypt/live/bububu-dinozavrik.ru/fullchain.pem /etc/nginx/ssl/fullchain.pem
-COPY /etc/letsencrypt/live/bububu-dinozavrik.ru/privkey.pem /etc/nginx/ssl/privkey.pem
+COPY ../etc/letsencrypt/live/bububu-dinozavrik.ru/fullchain.pem /etc/nginx/ssl/fullchain.pem
+COPY ../etc/letsencrypt/live/bububu-dinozavrik.ru/privkey.pem /etc/nginx/ssl/privkey.pem
 
 # Копируем собранный фронтенд в директорию Nginx
 COPY --from=build /app/build /usr/share/nginx/html
