@@ -7,7 +7,6 @@ WORKDIR /app
 RUN npm i
 RUN npm run build
 
-# Stage 2: Настройка Nginx с SSL и reverse proxy
 FROM nginx:latest as prod
 
 # Копируем статические файлы фронтенда
