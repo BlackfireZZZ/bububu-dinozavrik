@@ -4,12 +4,13 @@ import '../HomePage.css'
 import BegginingPhoto from '../assets/murmansk7.jpg'
 import NewYearPhoto from '../assets/NewYear.jpg'
 import ValentinePhoto from '../assets/14th2.jpg'
-import WalkPhoto from '../assets/walk6.jpg'
-import HomePhoto from '../assets/home1.jpg'
-import DifferencePhoto from '../assets/Difference1.jpg'
+import WalkPhoto from '../assets/walk3.jpg'
+import HomePhoto from '../assets/home4.2.jpg'
+import DifferencePhoto from '../assets/Difference9.jpg'
 import ShipPhoto from '../assets/Ship7.jpg'
 import SeaPhoto from '../assets/sea5.jpg'
 import SPBPhoto from '../assets/SPB1.jpg'
+import IDKPhoto from '../assets/walk11.jpg'
 import Dinosaur from '../assets/icons/dino.png'
 
 //link, title, photo
@@ -22,7 +23,8 @@ const memories = [
     ['/diff', '6. Ты разная', DifferencePhoto],
     ['/sea', '7. Про море', SeaPhoto],
     ['/ship', '8. Кораблик', ShipPhoto],
-    ['/poems', '9. Стихи и цветы', SPBPhoto]
+    ['/poems', '9. Стихи и цветы', SPBPhoto],
+    ['/circles', '10. Твои кружки', IDKPhoto]
 ]
 
 const HomePage = () => {
@@ -42,7 +44,7 @@ const HomePage = () => {
                     {memories.map((x, index) => (
                         <div className='point'>
                             <img style={{width: '100%'}} src={x[2]}/>
-                            <Link to={x[0]}><p onMouseOver={
+                            <Link to={x[0]}><p className="link" onMouseOver={
                                 () => document.getElementById('homepage-container').style.backgroundImage = `url(${x[2]})`
                                 }>{x[1]}</p>
                             </Link> 

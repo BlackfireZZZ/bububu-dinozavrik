@@ -4,7 +4,7 @@ import '../Sea.css';
 const Sea = () => {
     return (
         <div className="sea-sea-container">
-            <h1>Мне всегда нравилась твоя любовь к морю и к Владивостоку.</h1>
+            <h1 className="sea-header">Мне всегда нравилась твоя любовь к морю и к Владивостоку.</h1>
             <div className="sea-content">
                 <div className="sea-left-block">
                     <p>
