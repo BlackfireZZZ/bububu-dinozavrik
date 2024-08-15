@@ -1,0 +1,19 @@
+.ship-container {
+    height: 100vh;
+    background: linear-gradient(to top, rgb(0, 96, 125), white);
+}
+.ship-image {
+    height: 50vh;
+    margin: 30px;
+    margin-top: 10%;
+}
+.ship-images-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ship-wave{
+    position: absolute;
+    bottom: 0;
+    height: 30vh;
+}

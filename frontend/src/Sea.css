@@ -17,6 +17,11 @@
     margin-bottom: 20px;
 }
 
+.sea-header {
+    background-color: rgba(78, 1, 1, 0.17);
+    padding: 10px;
+    border-radius: 10px;
+}
 .sea-content {
     display: flex;
     gap: 20px;
@@ -35,8 +40,12 @@
 }
 
 .sea-left-block p, .sea-right-block p {
+    width: 70%;
     margin-bottom: 20px;
     text-align: justify;
+    background-color: rgba(78, 1, 1, 0.17);
+    padding: 10px;
+    border-radius: 10px;
 }
 
 .sea-images {
@@ -45,7 +54,7 @@
 }
 
 .sea-images img {
-    height: 30vw; /* Устанавливаем одинаковую высоту для всех изображений */
+    height: 20vw; /* Устанавливаем одинаковую высоту для всех изображений */
     object-fit: cover;
     flex: 1;
 }

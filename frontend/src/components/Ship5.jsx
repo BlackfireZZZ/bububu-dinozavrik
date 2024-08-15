@@ -9,6 +9,7 @@ const Ship5 = () => {
                 <img src={require("../assets/Ship9.jpg")} alt="Sea 1" className="ship-image" />
                 <RoundVideo src={require("../assets/RoundVideos/Ship.mp4")} alt="Sea 2" />
             </div>
+            <img className="ship-wave" src={require("../assets/icons/wave.png")}/>
         </div>
     );
 };

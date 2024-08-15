@@ -8,6 +8,7 @@ const Ship3 = () => {
                 <img src={require("../assets/Ship5.jpg")} alt="Sea 1" className="ship-image" />
                 <img src={require("../assets/Ship6.jpg")} alt="Sea 2" className="ship-image" />
             </div>
+            <img className="ship-wave" src={require("../assets/icons/wave.png")}/>
         </div>
     );
 };
