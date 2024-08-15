@@ -5,7 +5,7 @@ const Ship1 = () => {
     return (
         <div className="ship-container">
             <div className="ship-top-right-text">
-                <p>текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст</p>
+                <p>Твой кораблик и то, как я его делал.</p>
             </div>
             <div className="ship-images-container">
                 <img src={require("../assets/Ship1.jpg")} alt="Sea 1" className="ship-image" />

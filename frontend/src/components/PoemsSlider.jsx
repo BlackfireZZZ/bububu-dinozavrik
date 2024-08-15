@@ -7,7 +7,7 @@ const components = [
     { Component: Poems1, props: { text: "Текст первого компонента" } },
 ];
 
-const ShipSlider = () => {
+const PoemsSlider = () => {
     const [current, setCurrent] = useState(0);
     const [animating, setAnimating] = useState(false);
 
@@ -44,4 +44,4 @@ const ShipSlider = () => {
     );
 };
 
-export default ShipSlider;
+export default PoemsSlider;
