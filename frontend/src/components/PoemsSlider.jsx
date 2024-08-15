@@ -1,10 +1,14 @@
 import React, { useState } from 'react';
 import Poems1 from "./Poems1";
+import Poems2 from "./Poems2";
+import Poems3 from "./Poems3";
 import Left from '../assets/icons/Stylus-left.png'
 import Right from '../assets/icons/Stylus-right.png'
 
 const components = [
     { Component: Poems1, props: { text: "Текст первого компонента" } },
+    { Component: Poems2, props: { text: "Текст второго компонента" } },
+    { Component: Poems3, props: { text: "Текст третьего компонента" } },
 ];
 
 const PoemsSlider = () => {
