@@ -19,13 +19,13 @@ const memories = [
     ['/beginning', '1. Самое самое начало', BegginingPhoto],
     ['/newyear', '2. Новый год', NewYearPhoto],
     ['/14th', '3. 14 февраля', ValentinePhoto],
-    ['/timeline', '4. Дом', HomePhoto],
-    ['/ourwalks', '5. Наши прогулки', WalkPhoto],
-    ['/diff', '6. Ты разная', DifferencePhoto],
-    ['/sea', '7. Про море', SeaPhoto],
-    ['/ship', '8. Кораблик', ShipPhoto],
-    ['/poems', '9. Стихи и цветы', SPBPhoto],
-    ['/circles', '10. Твои кружки', IDKPhoto],
+    ['/circles', '4. Твои кружки', IDKPhoto],
+    ['/timeline', '5. Дом', HomePhoto],
+    ['/ourwalks', '6. Наши прогулки', WalkPhoto],
+    ['/diff', '7. Ты разная', DifferencePhoto],
+    ['/sea', '8. Про море', SeaPhoto],
+    ['/ship', '9. Кораблик', ShipPhoto],
+    ['/poems', '10. Стихи и цветы', SPBPhoto],
     ['/notover', 'И это ещё не конец', EndPhoto]
 ]
 
