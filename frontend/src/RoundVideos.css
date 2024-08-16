@@ -1,5 +1,5 @@
 .round-videos {
-    height: 100%;
+    min-height: 100vh;
     text-align: center;
     padding: 20px;
     background-color: #f0f0f0; /* Изменение цвета фона на пастельно-серый светлый оттенок */
