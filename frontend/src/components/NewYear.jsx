@@ -12,7 +12,7 @@ const NewYear = () => {
                     <RoundVideo src={require('../assets/RoundVideos/pizza.mp4')} />
                     <RoundVideo src={require('../assets/RoundVideos/skating_ring.mp4')} />
                 </div>
-                <div className="new-year__right">
+                <div className="new-year__right" style={{width: '30%'}}>
                     <MusicPlayer
                         img_src={require('../assets/music/Прогулка.jpg')}
                         song_src={require('../assets/music/Прогулка.mp3')}

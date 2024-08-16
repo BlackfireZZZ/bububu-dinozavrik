@@ -7,13 +7,14 @@
 
 .new-year__container {
     display: flex;
+    align-items: center;
     margin-top: 20px;
     justify-content: center;
 }
 
 .new-year__left,
 .new-year__right {
-    width: 30%;
+    width: 20%;
     margin: 20px;
     display: flex;
     flex-direction: column;
