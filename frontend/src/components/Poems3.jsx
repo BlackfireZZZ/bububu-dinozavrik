@@ -4,7 +4,7 @@ import '../Poems1.css'; // Импортируем стили
 const Poems3 = () => {
     return (
         <div className="poems__container">
-            <div className="poems__block__poem">
+            <div className="poems__block__poem" style={{fontSize: '23px'}}>
                 <p>
                     Солнце. Яркое, так что жмурит глаза.<br/>
                     Всюду листья, цветы, зеленеет трава,<br/>
