@@ -1,17 +1,25 @@
 .media-container-spb {
     display: flex;
     justify-content: center;
+    background-color: black;
+    min-height: fit-content;
 }
 
 .video {
     width: 100%; /* Настроить по необходимости */
     height: auto;
-    /* aspect-ratio: 16/9; Установить соотношение сторон для горизонтального видео */
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: rgb(255, 255, 255, 0.5); 
+    border-radius: 20px;
 }
 
 .photos {
     display: flex;
     justify-content: space-between;
+    padding: 10px;
+    background-color: rgb(255, 255, 255, 0.5); 
+    border-radius: 20px;
 }
 
 .photo {
