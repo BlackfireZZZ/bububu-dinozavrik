@@ -10,8 +10,8 @@ import DifferencePhoto from '../assets/Difference9.jpg'
 import ShipPhoto from '../assets/Ship7.jpg'
 import SeaPhoto from '../assets/sea5.jpg'
 import SPBPhoto from '../assets/SPB1.jpg'
-import IDKPhoto from '../assets/walk11.jpg'
-import EndPhoto from '../assets/SPB2.jpg'
+import IDKPhoto from '../assets/Martin.jpg'
+import EndPhoto from '../assets/endphoto.jpg'
 import Dinosaur from '../assets/icons/dino.png'
 
 //link, title, photo
