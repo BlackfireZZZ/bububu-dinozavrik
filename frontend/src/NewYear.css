@@ -2,7 +2,7 @@
     text-align: center;
     padding: 20px;
     background-color: rgb(0, 153, 195);
-    min-height: calc(max(120vh, fit-content));
+    min-height: 100vh;
 }
 
 .new-year__container {
