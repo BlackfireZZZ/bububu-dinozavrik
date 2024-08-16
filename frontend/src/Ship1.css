@@ -4,10 +4,16 @@
 }
 .ship-image {
     height: 50vh;
-    margin: 30px;
-    margin-top: 10%;
+    margin: 15px;
+    border-radius: 20px;
 }
 .ship-images-container {
+    margin-top: 10%;
+    margin-inline: auto;
+    padding: 10px;
+    border-radius: 20px;
+    width: fit-content;
+    background-color: rgba(255, 255, 255, 0.5);
     display: flex;
     justify-content: center;
     align-items: center;

@@ -41,7 +41,7 @@ function App() {
                     <Route path="/diff" element={<DiffSlider />}/>
                     <Route path="/sea" element={<Sea />}/>
                     <Route path="/ship" element={<ShipSlider />}/>
-                    <Route path="poems" element={<PoemsSlider />}/>
+                    <Route path="/poems" element={<PoemsSlider />}/>
                 </Routes>
             </Router>
         </div>
