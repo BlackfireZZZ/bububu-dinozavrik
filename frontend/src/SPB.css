@@ -1,8 +1,9 @@
 .media-container-spb {
     display: flex;
+    align-items: center;
     justify-content: center;
-    background-color: black;
-    min-height: fit-content;
+    background-color: #bcef8f;
+    min-height: 100vh;
 }
 
 .video {
