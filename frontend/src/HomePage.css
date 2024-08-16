@@ -1,6 +1,6 @@
 #homepage-container {
     background-color: bisque;
-    height: 100vh;
+    height: 100%;
 }
 .homeheader {
     color: black; 
@@ -27,7 +27,7 @@
     backdrop-filter: blur(10px);
 }
 .link {
-    font-size: 13px;
+    font-size: 15px;
 }
 .links { 
     background-color: rgba(255, 255, 255, 0.5);

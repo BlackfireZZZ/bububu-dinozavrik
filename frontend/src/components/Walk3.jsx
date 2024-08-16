@@ -8,7 +8,7 @@ const Walk3 = () => {
             <div className="left-column">
                 <div className="top-image-container">
                     <img src={require("../assets/walk7.jpg")} alt="Big" className="big-image"/>
-                    <div className="caption">"Подпись"</div>
+                    <div className="caption">Балуемся на площадке, где мёрзла уточка</div>
                 </div>
                 <div className="small-images-container">
                     <img src={require("../assets/walk8.jpg")} alt="Small1" className="small-image"/>
@@ -26,7 +26,6 @@ const Walk3 = () => {
                 <div className="image-container">
                     <img src={require('../assets/walk10.jpg')} alt="Walk" className="main-image"/>
                     <img src={require('../assets/walk11.jpg')} alt="Walk" className="main-image"/>
-                    <div className="caption">"Подпись"</div>
                 </div>
             </div>
         </div>

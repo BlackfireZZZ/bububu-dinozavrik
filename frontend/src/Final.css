@@ -1,0 +1,75 @@
+/* Общие стили для контейнера */
+.final__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5E6C5; /* Светлый охристый цвет фона */
+    min-height: 100vh; /* Контейнер занимает минимум всю высоту экрана */
+    padding: 20px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+/* Заголовок */
+.final__header {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 35px; /* Увеличенный размер шрифта */
+    color: #333;
+    font-weight: 700; /* Значение 700 означает жирный шрифт */
+}
+
+/* Стили для основного контента */
+.final__content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+}
+
+/* Стили для текста */
+.final__text-container {
+    background-color: rgba(240, 210, 165, 0.8); /* Полупрозрачный контейнер пастельной охры */
+    border-radius: 15px;
+    padding: 20px;
+    box-sizing: border-box;
+    height: 40vw; /* Высота текста равна высоте изображения */
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.final__text {
+    font-size: 20px; /* Увеличенный размер шрифта */
+    line-height: 1.5;
+    color: #333;
+}
+
+/* Стили для изображения */
+.final__image-container {
+    margin-left: 20px; /* Отступ между текстом и фотографией */
+    position: relative;
+    height: 40vw; /* Высота изображения */
+    flex: 1;
+}
+
+.final__image {
+    border-radius: 15px;
+    height: 100%;
+    width: auto;
+    object-fit: cover;
+}
+
+.final__image-caption {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background-color: rgba(140, 100, 60, 0.7); /* Темно-охристый полупрозрачный фон */
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 16px; /* Увеличенный размер шрифта */
+    color: #fff;
+    text-align: right;
+}

@@ -6,7 +6,8 @@ const Walk4 = () => {
         <div className="walk4-container" 
         style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', backgroundColor: '#77dd77', minHeight: '100vh' }}>
             <div className="image-container walk4" style={{width: '30%'}}>
-                <img src={require('../assets/walk12.jpg')} alt="Walk 12" className='img4' style={{ width: '100%' }} />
+                <img src={require('../assets/walk12.jpg')} alt="Walk 12" className='img4' style={{width: '100%'}}/>
+                <div className="caption">Гуляли по Поклонной Горе и смотрели на кадетиков.</div>
             </div>
             <div className="content-container walk4">
                 <div className="block__text">
