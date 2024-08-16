@@ -11,6 +11,7 @@ import ShipPhoto from '../assets/Ship7.jpg'
 import SeaPhoto from '../assets/sea5.jpg'
 import SPBPhoto from '../assets/SPB1.jpg'
 import IDKPhoto from '../assets/walk11.jpg'
+import EndPhoto from '../assets/SPB2.jpg'
 import Dinosaur from '../assets/icons/dino.png'
 
 //link, title, photo
@@ -24,7 +25,8 @@ const memories = [
     ['/sea', '7. Про море', SeaPhoto],
     ['/ship', '8. Кораблик', ShipPhoto],
     ['/poems', '9. Стихи и цветы', SPBPhoto],
-    ['/circles', '10. Твои кружки', IDKPhoto]
+    ['/circles', '10. Твои кружки', IDKPhoto],
+    ['/notover', 'И это ещё не конец', EndPhoto]
 ]
 
 const HomePage = () => {
@@ -33,15 +35,17 @@ const HomePage = () => {
         style={{backgroundImage: `url(${SPBPhoto})`, backgroundSize: 'cover'}}>
             <div className='filter'>
                 <div className='header-container'>
-                    <h1 className='homeheader'>Наш с тобой сайт</h1>
+                    <div>
+                        <h1 className='homeheader'>Наш с тобой сайт</h1>
+                        <p class='subtext'>Сделан лучшими динозавриками этого города</p>
+                    </div>
                     <div style={{display: 'flex', width: '100%', justifyContent: 'center'}}>
                         <img src={Dinosaur} alt='Ну типа динозаврик' className='dinosaur' style={{transform: 'scaleX(-1)'}}/>
                         <img src={Dinosaur} alt='Ну типа динозаврик' className='dinosaur'/>
                     </div>
-                    <p class='subtext'>Сделан лучшими динозавриками этого города</p>
                 </div>
                 <div className='links'>
-                    {memories.map((x, index) => (
+                    {memories.slice(0, 9).map((x, index) => (
                         <div className='point'>
                             <img style={{width: '100%'}} src={x[2]}/>
                             <Link to={x[0]}><p className="link" onMouseOver={
@@ -51,7 +55,15 @@ const HomePage = () => {
                         </div>
                     ))}
                     <div style={{display: 'flex', justifyContent: 'center'}}>
-                        <Link to='/notover'><p className='button'>Это ещё не конец</p></Link>
+                    {memories.slice(-2).map((x, index) => (
+                        <div className='point'>
+                            <img style={{width: '100%'}} src={x[2]}/>
+                            <Link to={x[0]}><p className="link" onMouseOver={
+                                () => document.getElementById('homepage-container').style.backgroundImage = `url(${x[2]})`
+                                }>{x[1]}</p>
+                            </Link> 
+                        </div>
+                    ))}
                     </div>
                 </div>
             </div>

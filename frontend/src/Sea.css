@@ -49,6 +49,9 @@
 }
 
 .sea-images {
+    background-color: rgba(192, 192, 192, 0.5);
+    padding: 10px;
+    border-radius: 20px;
     display: flex;
     gap: 10px;
 }
@@ -57,4 +60,5 @@
     height: 20vw; /* Устанавливаем одинаковую высоту для всех изображений */
     object-fit: cover;
     flex: 1;
+    border-radius: 20px;
 }
