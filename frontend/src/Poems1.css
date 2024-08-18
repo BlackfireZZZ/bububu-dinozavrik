@@ -7,13 +7,16 @@
     padding: 20px;
     background-color: #f0f8ff; /* Общий цвет фона */
     box-sizing: border-box;
+    min-height: 100vh;
     overflow-y: auto; /* Добавляем прокрутку для контейнера */
 }
 
 .poems__left, .poems__right {
     width: 50%;
     max-width: 600px;
+    margin: 10px;
     box-sizing: border-box;
+    margin-left: 0;
 }
 
 .poems__block__text {
