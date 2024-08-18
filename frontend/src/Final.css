@@ -13,9 +13,7 @@
 
 /* Заголовок */
 .final__header {
-    position: absolute;
-    top: 20px;
-    left: 20px;
+    margin-right: auto;
     font-size: 35px; /* Увеличенный размер шрифта */
     color: #333;
     font-weight: 700; /* Значение 700 означает жирный шрифт */
@@ -65,11 +63,10 @@
 .final__image-caption {
     position: absolute;
     bottom: 10px;
-    right: 10px;
+    width: fit-content;
     background-color: rgba(140, 100, 60, 0.7); /* Темно-охристый полупрозрачный фон */
     padding: 5px 10px;
     border-radius: 10px;
     font-size: 16px; /* Увеличенный размер шрифта */
     color: #fff;
-    text-align: right;
 }
