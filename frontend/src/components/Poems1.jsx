@@ -5,6 +5,7 @@ const flowersImage = require('../assets/flowers3.jpg'); // Импортируе�
 const Poems1 = () => {
     return (
         <div className="poems__container">
+            <div style={{display: 'flex', marginLeft: '200px'}}>
             <div className="poems__left">
                 <div className="poems__block__text">
                     <p>
@@ -53,6 +54,7 @@ const Poems1 = () => {
                         Давай сейчас ярче светить..
                     </p>
                 </div>
+            </div>
             </div>
         </div>
     );

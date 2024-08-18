@@ -63,7 +63,7 @@
 .final__image-caption {
     position: absolute;
     bottom: 10px;
-    width: fit-content;
+    width: 50%;
     background-color: rgba(140, 100, 60, 0.7); /* Темно-охристый полупрозрачный фон */
     padding: 5px 10px;
     border-radius: 10px;
