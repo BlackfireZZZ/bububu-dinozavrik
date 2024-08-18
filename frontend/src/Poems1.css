@@ -1,12 +1,14 @@
 .poems__container {
+    min-height: 100vh; /* Используем min-height вместо height */
     display: flex;
-    justify-content: center;
-    align-items: flex-start;
+    justify-content: center; /* Центрируем контейнер по горизонтали */
+    align-items: flex-start; /* Оставляем элементы прикреплёнными к верхней части контейнера */
     gap: 20px;
     padding: 20px;
     background-color: #f0f8ff; /* Общий цвет фона */
     box-sizing: border-box;
     min-height: 100vh;
+    overflow-y: auto; /* Добавляем прокрутку для контейнера */
 }
 
 .poems__left, .poems__right {
@@ -68,11 +70,9 @@
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border: 1px solid #a0cfee;
-    width: fit-content;
+    width: fit-content; /* Возвращаем ширину по содержимому */
     box-sizing: border-box;
-    display: flex;
-    justify-content: center; /* Центрируем контейнер по горизонтали */
-    align-items: center; /* Центрируем контейнер по вертикали */
+    margin-bottom: 20px; /* Добавляем отступ внизу для прокрутки */
 }
 
 .poems__block__poem p {

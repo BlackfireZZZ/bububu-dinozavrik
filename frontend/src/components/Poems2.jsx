@@ -5,7 +5,7 @@ const poemsImage = require('../assets/poems1.jpg'); // Импортируем и
 const Poems2 = () => {
     return (
         <div className="poems__container">
-            <div className="poems__block__poem">
+            <div className="poems__block__poem" style={{fontSize: '23px'}}>
                 <p>
                     Я вечно боюсь, <br/>
                     Не могу иначе<br/>

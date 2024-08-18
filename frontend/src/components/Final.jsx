@@ -12,8 +12,20 @@ const Final = () => {
                     </p>
                 </div>
                 <div className="final__image-container">
-                    <img src={require("../assets/poems1.jpg")} alt="Поэзия" className="final__image" />
-                    <p className="final__image-caption">Мне очень нравится эта фотография</p>
+                    <img src={require("../assets/poems1.jpg")} alt="Поэзия" className="final__image"/>
+                    <div style={{
+                        fontWeight: 'bold',
+                        position: 'absolute',
+                        bottom: '15px',
+                        right: '5px',
+                        backgroundColor:  'rgba(140, 100, 60, 0.7)',
+                        color: 'white',
+                        padding: '10px',
+                        borderRadius: '10px',
+                        fontSize: '16px'
+                    }}>
+                        Мне очень нравится эта фотография
+                    </div>
                 </div>
             </div>
         </div>
