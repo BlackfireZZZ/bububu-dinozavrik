@@ -11,6 +11,7 @@ import ShipPhoto from '../assets/Ship7.jpg'
 import SeaPhoto from '../assets/sea5.jpg'
 import SPBPhoto from '../assets/SPB1.jpg'
 import IDKPhoto from '../assets/Martin.jpg'
+import FamilyPhoto from '../assets/family.jpg'
 import EndPhoto from '../assets/endphoto.jpg'
 import Dinosaur from '../assets/icons/dino.png'
 
@@ -25,7 +26,8 @@ const memories = [
     ['/diff', '7. Ты разная', DifferencePhoto],
     ['/sea', '8. Про море', SeaPhoto],
     ['/ship', '9. Кораблик', ShipPhoto],
-    ['/poems', '10. Стихи и цветы', SPBPhoto],
+    ['/family', '10. Семья', FamilyPhoto],
+    ['/poems', '11. Стихи и цветы', SPBPhoto],
     ['/notover', 'И это ещё не конец', EndPhoto]
 ]
 
@@ -45,7 +47,7 @@ const HomePage = () => {
                     </div>
                 </div>
                 <div className='links'>
-                    {memories.slice(0, 9).map((x, index) => (
+                    {memories.slice(0, 12).map((x, index) => (
                         <div className='point'>
                             <img style={{width: '100%'}} src={x[2]}/>
                             <Link to={x[0]}><p className="link" onMouseOver={
@@ -54,17 +56,17 @@ const HomePage = () => {
                             </Link> 
                         </div>
                     ))}
-                    <div style={{display: 'flex', justifyContent: 'center'}}>
-                    {memories.slice(-2).map((x, index) => (
-                        <div className='point'>
-                            <img style={{width: '100%'}} src={x[2]}/>
-                            <Link to={x[0]}><p className="link" onMouseOver={
-                                () => document.getElementById('homepage-container').style.backgroundImage = `url(${x[2]})`
-                                }>{x[1]}</p>
-                            </Link> 
-                        </div>
-                    ))}
-                    </div>
+                    {/*<div style={{display: 'flex', justifyContent: 'center'}}>*/}
+                    {/*{memories.slice(-2).map((x, index) => (*/}
+                    {/*    <div className='point'>*/}
+                    {/*        <img style={{width: '100%'}} src={x[2]}/>*/}
+                    {/*        <Link to={x[0]}><p className="link" onMouseOver={*/}
+                    {/*            () => document.getElementById('homepage-container').style.backgroundImage = `url(${x[2]})`*/}
+                    {/*            }>{x[1]}</p>*/}
+                    {/*        </Link> */}
+                    {/*    </div>*/}
+                    {/*))}*/}
+                    {/*</div>*/}
                 </div>
             </div>
         </div>    

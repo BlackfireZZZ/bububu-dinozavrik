@@ -12,6 +12,7 @@ import './App.css';
 import WalkSlider from "./components/WalkSlider";
 import PoemsSlider from "./components/PoemsSlider";
 import Final from "./components/Final";
+import Family from "./components/Family";
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 
 function App() {
@@ -45,6 +46,7 @@ function App() {
                     <Route path="/poems" element={<PoemsSlider />}/>
                     <Route path="/circles" element={<RoundVideos />}/>
                     <Route path="/notover" element={<Final />}/>
+                    <Route path="/family" element={<Family />}/>
                 </Routes>
             </Router>
         </div>

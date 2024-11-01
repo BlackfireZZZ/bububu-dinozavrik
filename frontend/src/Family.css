@@ -1,21 +1,21 @@
-.fourteenth-container {
+.family-container {
     display: flex;
     flex-direction: column;
     padding: 20px;
 }
 
-.fourteenth-header {
+.family-header {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
 }
 
-.fourteenth-title {
+.family-title {
     font-size: 2.5em;
     font-weight: bold;
 }
 
-.fourteenth-note {
+.family-note {
     background-color: #ffcccc;
     border: 1px solid #ff9999;
     padding: 10px;
@@ -26,13 +26,13 @@
     font-family: 'Trebuchet MS';
 }
 
-.fourteenth-main {
+.family-main {
     display: flex;
     margin-top: 20px;
     justify-content: center;
 }
 
-.fourteenth-column {
+.family-column {
     /* flex: 1; */
     display: flex;
     flex-direction: column;
@@ -46,13 +46,13 @@
     margin-bottom: 20px;
 }
 
-.fourteenth-content-row {
+.family-content-row {
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 100%;
 }
 
-.fourteenth-content-row .block__text {
+.family-content-row .block__text {
     margin-left: 20px;
 }
